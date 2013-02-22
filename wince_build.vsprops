@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="wince_build"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories=".\SDKInclude"
+		PreprocessorDefinitions="_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_LIB;$(PLATFORMDEFINES);$(ARCHFAM);$(_ARCHFAM_);_UNICODE;_GDIPLUSEFFECTS_EXCLUDEOBJECTS"
+	/>
+</VisualStudioPropertySheet>

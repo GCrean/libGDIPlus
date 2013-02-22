@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="win32_build"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories=".\SDKInclude"
+		PreprocessorDefinitions="WIN32;_WINDOWS;_LIB;_GDIPLUSEFFECTS_EXCLUDEOBJECTS;GDIPVER=0x0110;LIBGDIPLUS_EXPORTS"
+		WarningLevel="3"
+		Detect64BitPortabilityProblems="false"
+	/>
+</VisualStudioPropertySheet>
